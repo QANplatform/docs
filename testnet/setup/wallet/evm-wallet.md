@@ -62,7 +62,7 @@ Fill out the custom network form in your wallet based on the table below:
 </tr>
 <tr>
     <td>RPC/Node URL</td>
-    <td>https://rpc-testnet.qanplatform.com</td>
+    <td>https://rpc-testnet-dev.qanplatform.com</td>
 </tr>
 <tr>
     <td>Blockchain Explorer URL</td>

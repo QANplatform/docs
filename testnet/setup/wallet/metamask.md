@@ -67,7 +67,7 @@ If you have already installed MetaMask as a browser extension on your desktop, p
     </tr>
     <tr>
         <td>New RPC URL</td>
-        <td>https://rpc-testnet.qanplatform.com</td>
+        <td>https://rpc-testnet-dev.qanplatform.com</td>
     </tr>
     <tr>
         <td>Chain ID</td>
@@ -120,7 +120,7 @@ If you have already installed MetaMask as on your mobile, please follow the inst
     </tr>
     <tr>
         <td>New RPC URL</td>
-        <td>https://rpc-testnet.qanplatform.com</td>
+        <td>https://rpc-testnet-dev.qanplatform.com</td>
     </tr>
     <tr>
         <td>Chain ID</td>
