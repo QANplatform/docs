@@ -9,8 +9,13 @@ description: 'Use APIs to interact with the QAN TestNet.'
 Use APIs to interact with the QAN TestNet.
 ::
 
-Note: Since QANplatform is Ethereum and EVM-compatible all the official Ethereum RPC Methods work.
+::alert{type="note"}
+#title
+Note:
 
+#content
+Since QANplatform is Ethereum and EVM-compatible all the official Ethereum RPC Methods work.
+::
 
 ## Explore QAN API Methods
 
