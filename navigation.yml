@@ -245,6 +245,14 @@ items:
       disabled: false
       comingSoon: false
       children: 
+      - id: 76
+        title: Overview
+        path: /testnet/smart-contract/writing
+        map: '28,32,76'
+        disabled: false
+        comingSoon: false
+        children: 
+
       - id: 33
         title: Writing a smart contract in JavaScript (JS)
         path: /testnet/smart-contract/writing/javascript
@@ -324,6 +332,14 @@ items:
     disabled: false
     comingSoon: false
     children:
+    - id: 47
+      title: Overview
+      path: /testnet/qan-api-methods
+      map: '46,47'
+      disabled: false
+      comingSoon: false
+      children: 
+
     - id: 78
       title: qan_blockNumber
       path: /testnet/qan-api-methods/qan_blocknumber
