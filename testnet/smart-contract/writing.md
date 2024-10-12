@@ -11,9 +11,14 @@ Overview of smart contract samples.
 
 ## Prerequisites
 
+::alert{type="note"}
+#title
 Note: 
 
-- Ensure you successfully set up your dev environment.
+#content
+- Ensure you successfully [set up your dev environment](https://docs.qanplatform.com/testnet/smart-contract/setup/qvmctl).
+::
+
 
 ## Smart contract samples
 
