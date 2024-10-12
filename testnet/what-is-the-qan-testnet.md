@@ -91,5 +91,12 @@ In alignment with the US National Institute of Standards and Technology (NIST)'s
   #description
   Learn about the fundamental definitions and terms used in the QAN blockchain platform.
   ::
-::
 
+  ::action{icon="qan/compiling" color="yellow" url="https://github.com/qanplatform/docs"}
+  #title
+  Suggest documentation edit
+
+  #description
+  Contribute to QAN developer docs on GitHub.
+  ::
+::
