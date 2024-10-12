@@ -41,7 +41,7 @@ In alignment with the US National Institute of Standards and Technology (NIST)'s
   Writing a smart contract  
 
   #description
-  Learn how to write a smart contract in JavaScript, TypeScript, C++, C, Go, etc.
+  Learn how to write a smart contract in Solidity, JavaScript, TypeScript, C++, C, Go, etc.
   ::
 
   ::action{icon="qan/qanbuild" color="purple" url="https://build.qanplatform.com"}
