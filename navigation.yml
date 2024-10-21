@@ -632,7 +632,7 @@ items:
       path: /testnet/qan-sdks/java
       map: '51,56'
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - id: 57
