@@ -46,6 +46,12 @@ At the beginning, the QAN TestNet will support SDKs in 3 programming languages (
     </td>
     <td>Use the Golang (Go) SDK to interact with the QAN TestNet.</td>
 </tr>
+<tr>
+    <td>
+        <a href="https://github.com/QANplatform/sdk-java" target="_blank">Java SDK</a>
+    </td>
+    <td>Use the Java SDK to interact with the QAN TestNet.</td>
+</tr>
 </tbody>
 </table>
 ::
