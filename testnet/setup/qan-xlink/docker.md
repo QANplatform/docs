@@ -35,17 +35,21 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
 3. ::customListItem
     **Copy-paste the following command in Terminal/Command Prompt and press Return/Enter key.**
 
+    ::customCodeBlock
     ```sh
     docker pull qanplatform/xlink
     docker run -d --name=xlink --restart=always --volume=xlink:/xlink qanplatform/xlink
     ```
+    ::
 ::
 4. ::customListItem
     **Copy-paste the following command in Terminal/Command Prompt and press Return/Enter key.**
 
+    ::customCodeBlock
     ```sh
     docker logs xlink
     ```
+    ::
 ::
 4. ::customListItem
     **Your new address is ready!**
@@ -54,10 +58,12 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
 
     Done! You should see something similar in the output  (you can safely ignore the low balance alert):
     
+    ::customCodeBlock
     ```sh
     Producing QAN XLINK signatures for 0x8552610914C09B85c03Bd67E3c8bF982C104D850
     BALANCE OF 0x8552610914C09B85c03Bd67E3c8bF982C104D850 BELOW 1 QANX
     ```
+    ::
 ::
 
 ::alert{type="warning"}

@@ -38,6 +38,7 @@ Your binary will be invoked with a single “construct” argument.
 
 ## JavaScript (JS) smart contract sample
 
+::customCodeBlock
 ```js
 let maxUser = 100;
 
@@ -99,6 +100,7 @@ function contract(args) {
 }
 contract(process.argv.slice(2));
 ```
+::
 
 ## Save the contract
 

@@ -38,6 +38,7 @@ Your binary will be invoked with a single “construct” argument.
 
 ## C++ smart contract sample
 
+::customCodeBlock
 ```cpp
 #include <iostream>
 #include <cstdlib>
@@ -108,6 +109,7 @@ int main(int argc, char *argv[]) {
   exit(1);
 }
 ```
+::
 
 ## Save the contract
 

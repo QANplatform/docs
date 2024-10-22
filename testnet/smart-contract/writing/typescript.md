@@ -38,6 +38,7 @@ Your binary will be invoked with a single “construct” argument.
 
 ## TypeScript (TS) smart contract sample
 
+::customCodeBlock
 ```ts
 let maxUser = 100;
 
@@ -100,6 +101,7 @@ function contract(args: String[]) {
 
 contract(process.argv.slice(2));
 ```
+::
 
 ## Save the contract
 

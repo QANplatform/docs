@@ -39,9 +39,11 @@ Warning:
 1. ::customListItem
     **Copy the Private key file from the Docker Volume to your desktop with the following command executed in your Terminal:**
 
+    ::customCodeBlock
     ```sh
     sudo cp /var/lib/docker/volumes/xlink/_data/privkey* > $HOME/Desktop/privkey.txt
     ```
+    ::
 ::
 
 ## Get private keys from QAN XLINK (Windows, macOS)

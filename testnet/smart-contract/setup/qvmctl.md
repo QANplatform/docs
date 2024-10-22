@@ -29,18 +29,24 @@ The qvmctl CLI tool is the swiss knife for interacting with QVM. It can be acqui
 
 ### Install image
 
+::customCodeBlock
 ```sh
 docker pull qanplatform/qvmctl
 ```
+::
 
 ### Verify installation
 
+::customCodeBlock
 ```sh
 docker run --rm qanplatform/qvmctl version
 ```
+::
 
 If everything went correctly the qvmctl version string should be printed on the terminal.
 
+::customCodeBlock
 ```sh
 v0.0.4-46e19631 
 ```
+::

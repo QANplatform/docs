@@ -30,6 +30,7 @@ It is capable of:
 - incrementing the total registered user count
 - storing above counter in the database
 
+::customCodeBlock
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.12 <0.9.0;
@@ -77,6 +78,7 @@ contract Contract {
     }
 }
 ```
+::
 
 ## Save the contract
 

@@ -38,6 +38,7 @@ Your binary will be invoked with a single “construct” argument.
 
 ## Golang (Go) smart contract sample
 
+::customCodeBlock
 ```go
 package main
 
@@ -110,6 +111,7 @@ func main() {
 	os.Exit(1)
 }
 ```
+::
 
 ## Save the contract
 
