@@ -640,7 +640,7 @@ items:
       path: /testnet/qan-sdks/csharp
       map: '51,57'
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - id: 58
