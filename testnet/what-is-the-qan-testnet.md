@@ -28,7 +28,7 @@ In alignment with the US National Institute of Standards and Technology (NIST)'s
   Start your journey here by setting up your environment.
   ::
 
-  ::action{icon="qan/faucet" color="blue-light" url="https://docs.qanplatform.com/testnet/tools/faucet/telegram-faucet"}
+  ::action{icon="qan/faucet" color="blue-light" url="https://docs.qanplatform.com/testnet/tools/faucet"}
   #title
   Faucet
 

@@ -34,4 +34,4 @@ Warning:
 1. Add testnet to [MetaMask](/testnet/setup/wallet/metamask)/[Trust Wallet](/testnet/setup/wallet/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/wallet/evm-wallet).
 2. [Install QAN XLINK Docker](/testnet/setup/qan-xlink/docker).
 3. Import private key to [MetaMask](/testnet/setup/import-private-key/metamask)/[Trust Wallet](/testnet/setup/import-private-key/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/import-private-key/evm-wallet).
-4. Request testnet tokens with the [Telegram Faucet](/testnet/tools/faucet/telegram-faucet).
+4. Request testnet tokens with the [Faucet](/testnet/tools/faucet).
