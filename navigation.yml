@@ -410,21 +410,21 @@ items:
     
     - title: Blockchain Explorer
       path: https://testnet.qanscan.com
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
     
     - title: Smart contract studio
       path: https://build.qanplatform.com
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
 
     - title: QAN API Methods
       path: /testnet/qan-api-methods
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children:
