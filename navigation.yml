@@ -717,8 +717,8 @@ items:
     
     - id: 69
       title: Faucet
-      path: /testnet/tools/faucet/telegram-faucet
-      map: 
+      path: /testnet/tools/faucet
+      map: '2,17'
       disabled: false
       comingSoon: false
       children: 
