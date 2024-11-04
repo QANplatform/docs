@@ -396,7 +396,7 @@ items:
     
     - title: Status page
       path: 
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: true
       children: 
@@ -421,8 +421,15 @@ items:
       disabled: false
       comingSoon: false
       children: 
+
+    - title: QAN API Methods
+      path: /testnet/qan-api-methods
+      pagination: true
+      disabled: false
+      comingSoon: false
+      children:
     
-    - title: SDKs
+    - title: QAN SDKs
       path: /testnet/qan-sdks
       pagination: false
       disabled: false
