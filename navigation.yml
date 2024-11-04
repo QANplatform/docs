@@ -1,772 +1,451 @@
 items:
-  - id: 1
-    title: What is the QAN TestNet?
+  - title: What is the QAN TestNet?
     path: /testnet/what-is-the-qan-testnet
-    map: '1'
+    pagination: true
     disabled: false
     comingSoon: false
     children:
 
-  - id: 2
-    title: Setting up your environment
-    path:
-    map:
+  - title: Setting up your environment
+    path: /testnet/setup
+    pagination: true
     disabled: false
     comingSoon: false
     children:
-    - id: 3
-      title: Overview
+    - title: Overview
       path: /testnet/setup
-      map: '2,3'
+      pagination: true
       disabled: false
       comingSoon: false
       children:
 
-    - id: 4
-      title: 1. Add testnet to Wallet
+    - title: 1. Add testnet to Wallet
       path:
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children:
-      - id: 5
-        title: Add testnet to MetaMask
+      - title: Add testnet to MetaMask
         path: /testnet/setup/wallet/metamask
-        map: '2,4,5'
+        pagination: true
         disabled: false
         comingSoon: false
         children:
 
-      - id: 6
-        title: Add testnet to Trust Wallet
+      - title: Add testnet to Trust Wallet
         path: /testnet/setup/wallet/trust-wallet
-        map: '2,4,6'
+        pagination: true
         disabled: false
         comingSoon: false
         children:
 
-      - id: 7
-        title: Add testnet to EVM-compatible Wallet
+      - title: Add testnet to EVM-compatible Wallet
         path: /testnet/setup/wallet/evm-wallet
-        map: '2,4,7'
+        pagination: true
         disabled: false
         comingSoon: false
         children:
             
-    - id: 8
-      title: 2. Install QAN XLINK
+    - title: 2. Install QAN XLINK
       path: 
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
-      - id: 9
-        title: Install QAN XLINK Docker
+      - title: Install QAN XLINK Docker
         path: /testnet/setup/qan-xlink/docker
-        map: '2,8,9'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 10
-        title: Install the QAN XLINK Desktop App
+      - title: Install the QAN XLINK Desktop App
         path: /testnet/setup/qan-xlink/desktop-app
-        map: '2,8,10'
+        pagination: true
         disabled: false
         comingSoon: true
         children: 
 
-      - id: 11
-        title: Install the QAN XLINK Browser Extension
+      - title: Install the QAN XLINK Browser Extension
         path: /testnet/setup/qan-xlink/browser-extension
-        map: '2,8,11'
+        pagination: true
         disabled: false
         comingSoon: true
         children: 
 
-      - id: 12
-        title: Install the QAN XLINK Mobile App
+      - title: Install the QAN XLINK Mobile App
         path: /testnet/setup/qan-xlink/mobile-app
-        map: '2,8,12'
+        pagination: true
         disabled: false
         comingSoon: true
         children: 
 
-    - id: 13
-      title: 3. Import private key to Wallet
+    - title: 3. Import private key to Wallet
       path: 
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
-      - id: 14
-        title: Import private key to MetaMask
+      - title: Import private key to MetaMask
         path: /testnet/setup/import-private-key/metamask
-        map: '2,13,14'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 15
-        title: Import private key to Trust Wallet
+      - title: Import private key to Trust Wallet
         path: /testnet/setup/import-private-key/trust-wallet
-        map: '2,13,15'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 16
-        title: Import private key to EVM-compatible Wallet
+      - title: Import private key to EVM-compatible Wallet
         path: /testnet/setup/import-private-key/evm-wallet
-        map: '2,13,16'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-    - id: 17
-      title: 4. Request testnet tokens
+    - title: 4. Request testnet tokens
       path: /testnet/tools/faucet
-      map: '2,17'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
 
-  - id: 20
-    title: Transaction
-    path: 
-    map:
+  - title: Transaction
+    path: /testnet/transaction
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
-    - id: 21
-      title: Overview
+    - title: Overview
       path: /testnet/transaction
-      map: '2,20,21'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
         
-    - id: 22
-      title: Send a transaction
+    - title: Send a transaction
       path: 
-      map:
+      pagination: true
       disabled: true
       comingSoon: false
       children: 
-      - id: 23
-        title: Send a transaction with MetaMask
+      - title: Send a transaction with MetaMask
         path: /testnet/transaction/send/metamask
-        map: '2,22,23'
+        pagination: true
         disabled: true
         comingSoon: false
         children: 
 
-      - id: 24
-        title: Send a transaction with Trust Wallet
+      - title: Send a transaction with Trust Wallet
         path: /testnet/transaction/send/trust-wallet
-        map: '2,22,24'
+        pagination: true
         disabled: true
         comingSoon: false
         children: 
 
-      - id: 25
-        title: Send a transaction with EVM-compatible Wallet
+      - title: Send a transaction with EVM-compatible Wallet
         path: /testnet/transaction/send/evm-wallet
-        map: '2,22,25'
+        pagination: true
         disabled: true
         comingSoon: false
         children:        
 
-    - id: 26
-      title: Receive a transaction
+    - title: Receive a transaction
       path: /testnet/transaction/receive
-      map: '2,20,26'
+      pagination: true
       disabled: true
       comingSoon: false
       children: 
     
-    - id: 27
-      title: View a transaction
+    - title: View a transaction
       path: /testnet/transaction/view
-      map: '2,20,27'
+      pagination: true
       disabled: true
       comingSoon: false
       children: 
 
-  - id: 28
-    title: Smart contract
-    path: 
-    map: ''
+  - title: Smart contract
+    path: /testnet/smart-contract
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
-    - id: 29
-      title: Overview
+    - title: Overview
       path: /testnet/smart-contract
-      map: '28,29'
+      pagination: true
       disabled: true
       comingSoon: false
       children: 
     
-    - id: 30
-      title: Setting up your dev environment
+    - title: Setting up your dev environment
       path: 
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
-      - id: 31
-        title: Installing qvmctl
+      - title: Installing qvmctl
         path: /testnet/smart-contract/setup/qvmctl
-        map: '28,30,31'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-    - id: 32
-      title: Writing a smart contract
-      path:
-      map: ''
+    - title: Writing a smart contract
+      path: /testnet/smart-contract/writing
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
-      - id: 76
-        title: Overview
+      - title: Overview
         path: /testnet/smart-contract/writing
-        map: '28,32,76'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 33
-        title: Writing a smart contract in JavaScript (JS)
+      - title: Writing a smart contract in JavaScript (JS)
         path: /testnet/smart-contract/writing/javascript
-        map: '28,32,33'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 34
-        title: Writing a smart contract in TypeScript (TS)
+      - title: Writing a smart contract in TypeScript (TS)
         path: /testnet/smart-contract/writing/typescript
-        map: '28,32,34'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 35
-        title: Writing a smart contract in C++
+      - title: Writing a smart contract in C++
         path: /testnet/smart-contract/writing/cpp
-        map: '28,32,35'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 36
-        title: Writing a smart contract in C
+      - title: Writing a smart contract in C
         path: /testnet/smart-contract/writing/c
-        map: '28,32,36'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 37
-        title: Writing a smart contract in Golang (Go)
+      - title: Writing a smart contract in Golang (Go)
         path: /testnet/smart-contract/writing/go
-        map: '28,32,37'
+        pagination: true
         disabled: false
         comingSoon: false
         children: 
 
-      - id: 38
-        title: Writing a smart contract in any language
+      - title: Writing a smart contract in any language
         path: /testnet/smart-contract/writing/any-language
-        map: '28,32,38'
+        pagination: true
         disabled: true
         comingSoon: false
         children: 
 
-    - id: 39
-      title: Compiling a smart contract
+    - title: Compiling a smart contract
       path: /testnet/smart-contract/compiling
-      map: '28,39'
+      pagination: true
       disabled: true
       comingSoon: false
       children: 
     
-    - id: 40
-      title: Deploying a smart contract
+    - title: Deploying a smart contract
       path: /testnet/smart-contract/deploying
-      map: '28,40'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 43
-      title: Interacting with a smart contract
+    - title: Interacting with a smart contract
       path: /testnet/smart-contract/interacting
-      map: '28,43'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
 
-  - id: 46
-    title: QAN API Methods
-    path: 
-    map:
+  - title: QAN API Methods
+    path: /testnet/qan-api-methods
+    pagination: true
     disabled: false
     comingSoon: false
     children:
-    - id: 47
-      title: Overview
-      path: /testnet/qan-api-methods
-      map: '46,47'
-      disabled: false
-      comingSoon: false
-      children: 
 
-    - id: 78
-      title: qan_blockNumber
-      path: /testnet/qan-api-methods/qan_blocknumber
-      map: '46,78'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 79
-      title: qan_call
-      path: /testnet/qan-api-methods/qan_call
-      map: '46,79'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 80
-      title: qan_chainId
-      path: /testnet/qan-api-methods/qan_chainid
-      map: '46,80'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 81
-      title: qan_estimateGas
-      path: /testnet/qan-api-methods/qan_estimategas
-      map: '46,81'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 82
-      title: qan_feeHistory
-      path: /testnet/qan-api-methods/qan_feehistory
-      map: '46,82'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 83
-      title: qan_gasPrice
-      path: /testnet/qan-api-methods/qan_gasprice
-      map: '46,83'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 85
-      title: qan_getBalance
-      path: /testnet/qan-api-methods/qan_getbalance
-      map: '46,85'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 86
-      title: qan_getBlockByHash
-      path: /testnet/qan-api-methods/qan_getblockbyhash
-      map: '46,86'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 87
-      title: qan_getBlockByNumber
-      path: /testnet/qan-api-methods/qan_getblockbynumber
-      map: '46,87'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 88
-      title: qan_getBlockReceipts
-      path: /testnet/qan-api-methods/qan_getblockreceipts
-      map: '46,88'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 89
-      title: qan_getBlockTransactionCountByHash
-      path: /testnet/qan-api-methods/qan_getblocktransactioncountbyhash
-      map: '46,89'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 90
-      title: qan_getBlockTransactionCountByNumber
-      path: /testnet/qan-api-methods/qan_getblocktransactioncountbynumber
-      map: '46,90'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 91
-      title: qan_getCode
-      path: /testnet/qan-api-methods/qan_getcode
-      map: '46,91'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 92
-      title: qan_getFilterChanges
-      path: /testnet/qan-api-methods/qan_getfilterchanges
-      map: '46,92'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 93
-      title: qan_getFilterLogs
-      path: /testnet/qan-api-methods/qan_getfilterlogs
-      map: '46,93'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 94
-      title: qan_getLogs
-      path: /testnet/qan-api-methods/qan_getlogs
-      map: '46,94'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 95
-      title: qan_getProof
-      path: /testnet/qan-api-methods/qan_getproof
-      map: '46,95'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 96
-      title: qan_getStorageAt
-      path: /testnet/qan-api-methods/qan_getstorageat
-      map: '46,96'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 97
-      title: qan_getTransactionByBlockHashAndIndex
-      path: /testnet/qan-api-methods/qan_gettransactionbyblockhashandindex
-      map: '46,97'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 98
-      title: qan_getTransactionByBlockNumberAndIndex
-      path: /testnet/qan-api-methods/qan_gettransactionbyblocknumberandindex
-      map: '46,98'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 99
-      title: qan_getTransactionByHash
-      path: /testnet/qan-api-methods/qan_gettransactionbyhash
-      map: '46,99'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 100
-      title: qan_getTransactionCount
-      path: /testnet/qan-api-methods/qan_gettransactioncount
-      map: '46,100'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 101
-      title: qan_getTransactionReceipt
-      path: /testnet/qan-api-methods/qan_gettransactionreceipt
-      map: '46,101'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 104
-      title: qan_maxPriorityFeePerGas
-      path: /testnet/qan-api-methods/qan_maxpriorityfeepergas
-      map: '46,104'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 105
-      title: qan_newBlockFilter
-      path: /testnet/qan-api-methods/qan_newblockfilter
-      map: '46,105'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 106
-      title: qan_newFilter
-      path: /testnet/qan-api-methods/qan_newfilter
-      map: '46,106'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 107
-      title: qan_newPendingTransactionFilter
-      path: /testnet/qan-api-methods/qan_newpendingtransactionfilter
-      map: '46,107'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 108
-      title: qan_sendRawTransaction
-      path: /testnet/qan-api-methods/qan_sendrawtransaction
-      map: '46,108'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 110
-      title: qan_syncing
-      path: /testnet/qan-api-methods/qan_syncing
-      map: '46,110'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 111
-      title: qan_uninstallFilter
-      path: /testnet/qan-api-methods/qan_uninstallfilter
-      map: '46,111'
-      disabled: false
-      comingSoon: false
-      children: 
-    
-    - id: 113
-      title: qan_xlinkValid
-      path: /testnet/qan-api-methods/qan_xlinkvalid
-      map: '46,113'
-      disabled: false
-      comingSoon: false
-      children: 
-
-  - id: 51
-    title: QAN SDKs
-    path: 
-    map:
+  - title: QAN SDKs
+    path: /testnet/qan-sdks
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
-    - id: 52
-      title: Overview
+    - title: Overview
       path: /testnet/qan-sdks
-      map: '51,52'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 53
-      title: JavaScript SDK
+    - title: JavaScript SDK
       path: /testnet/qan-sdks/javascript
-      map: '51,53'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 54
-      title: Python SDK
+    - title: Python SDK
       path: /testnet/qan-sdks/python
-      map: '51,54'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 55
-      title: Golang (Go) SDK
+    - title: Golang (Go) SDK
       path: /testnet/qan-sdks/go
-      map: '51,55'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 56
-      title: Java SDK
+    - title: Java SDK
       path: /testnet/qan-sdks/java
-      map: '51,56'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 57
-      title: C# SDK
+    - title: C# SDK
       path: /testnet/qan-sdks/csharp
-      map: '51,57'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 58
-      title: PHP SDK
+    - title: PHP SDK
       path: /testnet/qan-sdks/php
-      map: '51,58'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 59
-      title: C SDK
+    - title: C SDK
       path: /testnet/qan-sdks/c
-      map: '51,59'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 60
-      title: Shell SDK
+    - title: Shell SDK
       path: /testnet/qan-sdks/shell
-      map: '51,60'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 61
-      title: Ruby SDK
+    - title: Ruby SDK
       path: /testnet/qan-sdks/ruby
-      map: '51,61'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 62
-      title: Swift SDK
+    - title: Swift SDK
       path: /testnet/qan-sdks/swift
-      map: '51,62'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 63
-      title: Kotlin SDK
+    - title: Kotlin SDK
       path: /testnet/qan-sdks/kotlin
-      map: '51,63'
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-  - id: 64
-    title: Node
+  - title: Node
     path: /testnet/node
-    map: '64'
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
 
-  - id: 65
-    title: Validation
+  - title: Validation
     path: /testnet/validation
-    map: '65'
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
     
-  - id: 66
-    title: Tools
-    path: 
-    map:
+  - title: Tools
+    path: /testnet/tools
+    pagination: true
     disabled: false
     comingSoon: false
     children: 
-    - id: 67
-      title: Overview
+    - title: Overview
       path: /testnet/tools
-      map: '66,67'
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 68
-      title: Status page
+    - title: Status page
       path: 
-      map:
+      pagination: true
       disabled: false
       comingSoon: true
       children: 
     
-    - id: 69
-      title: Faucet
+    - title: Faucet
       path: /testnet/tools/faucet
-      map: '2,17'
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 70
-      title: Blockchain Explorer
+    - title: Blockchain Explorer
       path: https://testnet.qanscan.com
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 71
-      title: Smart contract studio
+    - title: Smart contract studio
       path: https://build.qanplatform.com
-      map:
+      pagination: true
       disabled: false
       comingSoon: false
       children: 
     
-    - id: 72
-      title: SDKs
+    - title: SDKs
       path: /testnet/qan-sdks
-      map:
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
         
-  - id: 73
-    title: Roadmap
+  - title: Roadmap
     path: /testnet/roadmap
-    map: '73'
+    pagination: true
     disabled: true
     comingSoon: false
     children: 
     
-  - id: 74
-    title: FAQ
+  - title: FAQ
     path: /testnet/faq
-    map: '74'
+    pagination: true
     disabled: true
     comingSoon: false
     children: 
     
-  - id: 75
-    title: Glossary
+  - title: Glossary
     path: /testnet/glossary
-    map: '75'
+    pagination: true
     disabled: false
     comingSoon: false
     children:
