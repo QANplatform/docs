@@ -125,26 +125,11 @@ items:
 
     - id: 17
       title: 4. Request testnet tokens
-      path: 
-      map:
+      path: /testnet/tools/faucet
+      map: '2,17'
       disabled: false
       comingSoon: false
       children: 
-      - id: 18
-        title: Telegram Faucet
-        path: /testnet/tools/faucet/telegram-faucet
-        map: '2,17,18'
-        disabled: false
-        comingSoon: false
-        children: 
-
-      - id: 19
-        title: Web Faucet
-        path: /testnet/tools/faucet/web-faucet
-        map: '2,17,19'
-        disabled: false
-        comingSoon: true
-        children: 
 
   - id: 20
     title: Transaction
