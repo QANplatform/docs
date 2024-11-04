@@ -19,7 +19,7 @@ Note:
 - Ensure you succeeded with Step 1. Add testnet to [MetaMask](/testnet/setup/wallet/metamask)/[Trust Wallet](/testnet/setup/wallet/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/wallet/evm-wallet)
 - Ensure you succeeded with Sept 2. [Install QAN XLINK Docker](/testnet/setup/qan-xlink/docker).
 - Ensure you succeeded with Step 3. Import private key to [MetaMask](/testnet/setup/import-private-key/metamask)/[Trust Wallet](/testnet/setup/import-private-key/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/import-private-key/evm-wallet) wallet.
-- If you will use the Telegram Faucet: ensure you have installed [Telegram](https://telegram.org){:target="_blank"} on your desktop or mobile device
+- If you will use the Telegram Faucet: ensure you have installed [Telegram](https://telegram.org){:target="_blank"} on your desktop or mobile device.
 ::
 
 ## Request testnet tokens with the Web Faucet
