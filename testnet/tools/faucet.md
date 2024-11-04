@@ -1,12 +1,12 @@
 ---
-title: 'Telegram Faucet'
-description: 'Learn how to request testnet tokens (QANX) from the Telegram Faucet.'
+title: 'Faucet'
+description: 'Learn how to request testnet tokens (QANX) from the Faucet.'
 ---
 
-# Telegram Faucet
+# Faucet
 
 ::lead
-Learn how to request testnet tokens (QANX) from the Telegram Faucet. 
+Learn how to request testnet tokens (QANX) from the Faucet. 
 ::
 
 ## Prerequisites
@@ -19,10 +19,26 @@ Note:
 - Ensure you succeeded with Step 1. Add testnet to [MetaMask](/testnet/setup/wallet/metamask)/[Trust Wallet](/testnet/setup/wallet/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/wallet/evm-wallet)
 - Ensure you succeeded with Sept 2. [Install QAN XLINK Docker](/testnet/setup/qan-xlink/docker).
 - Ensure you succeeded with Step 3. Import private key to [MetaMask](/testnet/setup/import-private-key/metamask)/[Trust Wallet](/testnet/setup/import-private-key/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/import-private-key/evm-wallet) wallet.
-- Ensure you have installed [Telegram](https://telegram.org){:target="_blank"} on your desktop or mobile device. 
+- If you will use the Telegram Faucet: ensure you have installed [Telegram](https://telegram.org){:target="_blank"} on your desktop or mobile device
 ::
 
-## Request testnet tokens
+## Request testnet tokens with the Web Faucet
+
+1. **Open the QAN Web Faucet: [faucet.qanplatform.com](https://faucet.qanplatform.com){:target="_blank"}**
+2. ::customListItem
+    **Insert the wallet address you got from QAN XLINK.**
+
+    Example: 0x8552610914C09B85c03Bd67E3c8bF982C104D850
+
+    Note: your address will be different. The address above is just an example.
+::
+3. ::customListItem
+    **Done!**
+
+    The faucet will check the address validity and send you some QANX tokens and a link to the blockchain explorer with your transaction.
+::
+
+## Request testnet tokens with the Telegram Faucet
 
 1. **Text the the following bot on Telegram: @QAN_testnet_faucet_bot**
 2. ::customListItem
