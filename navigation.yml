@@ -8,7 +8,7 @@ items:
 
   - title: Setting up your environment
     path: /testnet/setup
-    pagination: true
+    pagination: false
     disabled: false
     comingSoon: false
     children:
@@ -21,7 +21,7 @@ items:
 
     - title: 1. Add testnet to Wallet
       path:
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children:
@@ -48,7 +48,7 @@ items:
             
     - title: 2. Install QAN XLINK
       path: 
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
@@ -82,7 +82,7 @@ items:
 
     - title: 3. Import private key to Wallet
       path: 
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
@@ -116,7 +116,7 @@ items:
 
   - title: Transaction
     path: /testnet/transaction
-    pagination: true
+    pagination: false
     disabled: false
     comingSoon: false
     children: 
@@ -129,7 +129,7 @@ items:
         
     - title: Send a transaction
       path: 
-      pagination: true
+      pagination: false
       disabled: true
       comingSoon: false
       children: 
@@ -169,8 +169,8 @@ items:
       children: 
 
   - title: Smart contract
-    path: /testnet/smart-contract
-    pagination: true
+    path: 
+    pagination: false
     disabled: false
     comingSoon: false
     children: 
@@ -183,7 +183,7 @@ items:
     
     - title: Setting up your dev environment
       path: 
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
@@ -196,7 +196,7 @@ items:
 
     - title: Writing a smart contract
       path: /testnet/smart-contract/writing
-      pagination: true
+      pagination: false
       disabled: false
       comingSoon: false
       children: 
@@ -279,7 +279,7 @@ items:
 
   - title: QAN SDKs
     path: /testnet/qan-sdks
-    pagination: true
+    pagination: false
     disabled: false
     comingSoon: false
     children: 
@@ -383,7 +383,7 @@ items:
     
   - title: Tools
     path: /testnet/tools
-    pagination: true
+    pagination: false
     disabled: false
     comingSoon: false
     children: 
