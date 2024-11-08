@@ -41,7 +41,7 @@ Warning:
 
     ::customCodeBlock
     ```sh
-    sudo cp /var/lib/docker/volumes/xlink/_data/privkey* > $HOME/Desktop/privkey.txt
+    docker run --rm -it -v xlink:/xlink:ro alpine sh -c 'cat /xlink/privkey*'
     ```
     ::
 ::
