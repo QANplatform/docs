@@ -329,7 +329,7 @@ items:
       path: /testnet/qan-sdks/php
       pagination: true
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - title: C SDK

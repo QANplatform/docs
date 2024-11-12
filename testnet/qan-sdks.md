@@ -58,6 +58,12 @@ At the beginning, the QAN TestNet will support SDKs in 3 programming languages (
     </td>
     <td>Use the C# SDK to interact with the QAN TestNet.</td>
 </tr>
+<tr>
+    <td>
+        <a href="https://github.com/QANplatform/sdk-php" target="_blank">PHP SDK</a>
+    </td>
+    <td>Use the PHP SDK to interact with the QAN TestNet.</td>
+</tr>
 </tbody>
 </table>
 ::
