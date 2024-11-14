@@ -70,7 +70,7 @@ In alignment with the US National Institute of Standards and Technology (NIST)'s
 
   ::action{icon="qan/sdk" color="orange" url="https://docs.qanplatform.com/testnet/qan-sdks"}
   #title
-  QAN SKDs
+  QAN SDKs
 
   #description
   Explore the QAN SDKs and interact with the QAN TestNet.
