@@ -336,7 +336,7 @@ items:
       path: /testnet/qan-sdks/c
       pagination: true
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - title: Shell SDK
