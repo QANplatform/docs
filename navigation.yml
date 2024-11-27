@@ -339,11 +339,11 @@ items:
       comingSoon: false
       children: 
     
-    - title: Shell SDK
-      path: /testnet/qan-sdks/shell
+    - title: Bash SDK
+      path: /testnet/qan-sdks/bash
       pagination: true
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - title: Ruby SDK
