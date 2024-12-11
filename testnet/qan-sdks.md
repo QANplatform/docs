@@ -76,6 +76,12 @@ At the beginning, the QAN TestNet will support SDKs in 3 programming languages (
     </td>
     <td>Use the Bash SDK to interact with the QAN TestNet.</td>
 </tr>
+<tr>
+    <td>
+        <a href="https://github.com/QANplatform/sdk-ruby" target="_blank">Ruby SDK</a>
+    </td>
+    <td>Use the Ruby SDK to interact with the QAN TestNet.</td>
+</tr>
 </tbody>
 </table>
 ::

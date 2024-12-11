@@ -350,7 +350,7 @@ items:
       path: /testnet/qan-sdks/ruby
       pagination: true
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - title: Swift SDK
