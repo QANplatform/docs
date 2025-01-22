@@ -70,7 +70,7 @@ If you have already installed Trust Wallet as a browser extension on your deskto
     </tr>
     <tr>
         <td>RPC URL</td>
-        <td>https://rpc-testnet-dev.qanplatform.com</td>
+        <td>https://rpc-testnet.qanplatform.com</td>
     </tr>
     <tr>
         <td>Chain ID</td>
@@ -134,7 +134,7 @@ If you have already installed Trust Wallet as on your Android mobile, please fol
     </tr>
     <tr>
         <td>Node URL</td>
-        <td>https://rpc-testnet-dev.qanplatform.com</td>
+        <td>https://rpc-testnet.qanplatform.com</td>
     </tr>
     <tr>
         <td>Explorer URL</td>
