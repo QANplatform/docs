@@ -16,7 +16,7 @@ Learn how to write a smart contract in JavaScript (JS).
 Note:
 
 #content
-- Ensure you succesfully [set up your dev environment](/testnet/smart-contract/setup/qvmctl). 
+- Ensure you successfully [set up your dev environment](/testnet/smart-contract/setup/qvmctl). 
 ::
 
 ## Sample contract functionality
