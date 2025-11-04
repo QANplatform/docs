@@ -16,7 +16,7 @@ Learn how to interact with a smart contract.
 Note:
 
 #content
-- Ensure you succesfully deployed your smart contract.
+- Ensure you successfully deployed your smart contract.
 ::
 
 ## Reading from the database

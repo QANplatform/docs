@@ -16,7 +16,7 @@ Learn how to deploy a smart contract.
 Note:
 
 #content
-- Ensure your succesfully saved you previously written contract. 
+- Ensure you successfully saved you previously written contract. 
 ::
 
 ## Run the deploy command of qvmctl using docker
