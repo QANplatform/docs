@@ -19,6 +19,14 @@ Note:
 - Ensure your succesfully saved you previously written contract. 
 ::
 
+::alert{type="warning"}
+#title
+Warning:
+
+#content
+Currently ARM64 architecture based machines (e.g.: Apple M-Series MacBooks) are NOT supported for compiling smart contracts. This limitation will be fixed soon.
+::
+
 ## Run the deploy command of qvmctl using docker
 
 ::customCodeBlock
