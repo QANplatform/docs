@@ -51,7 +51,7 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
     ```
     ::
 ::
-4. ::customListItem
+5. ::customListItem
     **Your new address is ready!**
     
     You just generated your new wallet address which has associated QAN XLINK post-quantum keys.
@@ -60,8 +60,9 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
     
     ::customCodeBlock
     ```sh
-    Producing QAN XLINK signatures for 0x8552610914C09B85c03Bd67E3c8bF982C104D850
-    BALANCE OF 0x8552610914C09B85c03Bd67E3c8bF982C104D850 BELOW 1 QANX
+    Created mnemonic file with a new securely generated mnemonic at /xlink/mnemonic.txt
+    xlink initialized for address: 0xfaE0b7ED46f266cF360E52e0C8E33a37AAaa1a81
+    insufficient funds on address, waiting 1 minute before re-checking...
     ```
     ::
 ::
