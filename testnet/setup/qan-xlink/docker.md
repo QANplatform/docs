@@ -37,8 +37,8 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
 
     ::customCodeBlock
     ```sh
-    docker pull qanplatform/xlink
-    docker run -d --name=xlink --restart=always --volume=xlink:/xlink qanplatform/xlink
+    docker pull qanplatform/xlink:testnet
+    docker run -d --name=xlink-testnet --restart=always --volume=xlink-testnet:/xlink qanplatform/xlink:testnet
     ```
     ::
 ::
@@ -47,7 +47,7 @@ QAN XLINK a custom cross-signature protocol. This protocol enables seamless inte
 
     ::customCodeBlock
     ```sh
-    docker logs xlink
+    docker logs -f xlink-testnet
     ```
     ::
 ::
