@@ -25,7 +25,7 @@ QVM calls specify database slots to be accessed during contract execution. These
 
 ::customCodeBlock
 ```sh
-docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(pwd):/ws qanplatform/qvmctl call -r QVM_INIT_MAXUSER -privkey /ws/privkey -rpc <testnet_endpoint> 0xCONTRACT_ADDERSS register testuser1
+docker run --rm -v /var/run/docker.sock:/var/run/docker.sock -v $(pwd):/ws qanplatform/qvmctl tx -r QVM_INIT_MAXUSER -privkey /ws/privkey -rpc <testnet_endpoint> 0xCONTRACT_ADDERSS register testuser1
 ```
 ::
 
