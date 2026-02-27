@@ -74,3 +74,67 @@ Warning:
 #content
 QAN XLINK will only automatically cross-sign your future transactions in the background using post-quantum cryptography while Docker is running on your device. 
 ::
+
+## Supporting Multiple Wallets
+
+There are several approaches to run multiple addresses:
+
+**Option 1: Unique volume per wallet**
+
+::customCodeBlock
+```sh
+# Wallet A
+docker run -d --name=xlink-wallet-a --restart=always --volume=xlink-wallet-a:/xlink qanplatform/xlink:testnet
+```
+::
+
+::customCodeBlock
+```sh
+# Wallet B
+docker run -d --name=xlink-wallet-b --restart=always --volume=xlink-wallet-b:/xlink qanplatform/xlink:testnet
+```
+::
+
+**Option 2: Mount different mnemonic files**
+
+::customCodeBlock
+```sh
+# Wallet A
+docker run -d --name=xlink-wallet-a --restart=always -v /path/to/mnemonic-a.txt:/xlink/mnemonic.txt qanplatform/xlink:testnet
+```
+::
+
+::customCodeBlock
+```sh
+docker run -d --name=xlink-wallet-b --restart=always -v /path/to/mnemonic-b.txt:/xlink/mnemonic.txt qanplatform/xlink:testnet
+```
+::
+
+**Option 3: Override mnemonic path via environment variable**
+
+::customCodeBlock
+```sh
+docker run -d --name=xlink-wallet-b --restart=always \
+ -v my-volume:/xlink \
+ -e QAN_MNEMO=/xlink/wallet-b.txt \
+ qanplatform/xlink:testnet
+```
+::
+
+## Default Behavior
+
+The XLINK image uses these environment variables:
+
+1. QAN_CREATE_MNEMO_IF_NOT_EXISTS=1 ? automatically creates a new mnemonic file if one doesn't exist
+2. QAN_MNEMO=/xlink/mnemonic.txt ? path to the mnemonic file inside the container
+
+The current documented setup:
+
+::customCodeBlock
+```sh
+docker pull qanplatform/xlink:testnet
+docker run -d --name=xlink-testnet --restart=always --volume=xlink-testnet:/xlink qanplatform/xlink:testnet
+```
+::
+
+This creates a persistent Docker volume (xlink-testnet) to store the mnemonic file. The mnemonic is generated on first run and reused on subsequent runs.
