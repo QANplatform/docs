@@ -20,6 +20,7 @@ Note:
 - Ensure you succeeded with Sept 2. [Install QAN XLINK Docker](/testnet/setup/qan-xlink/docker).
 - Ensure you succeeded with Step 3. Import private key to [MetaMask](/testnet/setup/import-private-key/metamask)/[Trust Wallet](/testnet/setup/import-private-key/trust-wallet)/[EVM-compatible Wallet](/testnet/setup/import-private-key/evm-wallet) wallet.
 - If you will use the Telegram Faucet: ensure you have installed [Telegram](https://telegram.org){:target="_blank"} on your desktop or mobile device.
+- If you're using Trust Wallet, go to 'Preferences' and disable 'Hide assets < $0.01' to see QANX in your crypto assets.
 ::
 
 ## Request testnet tokens with the Web Faucet
