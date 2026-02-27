@@ -242,6 +242,13 @@ items:
         comingSoon: false
         children: 
 
+      - title: Writing a smart contract in Python
+        path: /testnet/smart-contract/writing/python
+        pagination: true
+        disabled: false
+        comingSoon: false
+        children: 
+
       - title: Writing a smart contract in any language
         path: /testnet/smart-contract/writing/any-language
         pagination: true
