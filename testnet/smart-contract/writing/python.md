@@ -44,7 +44,7 @@ It is capable of:
 
 While some programming languages do not have explicit support for constructors you are free to implement your own logic for contract initialization after it gets deployed.
 
-Your binary will be invoked with a single ?construct? argument.
+Your binary will be invoked with a single "construct" argument.
 
 ## Python smart contract sample
 
