@@ -19,7 +19,6 @@ Note:
 - Ensure you successfully [set up your dev environment](https://docs.qanplatform.com/testnet/smart-contract/setup/qvmctl).
 ::
 
-
 ## Smart contract samples
 
 ::tableCard
@@ -59,6 +58,12 @@ Note:
   <td>Golang (Go)</td>
   <td>
     <a href="https://docs.qanplatform.com/testnet/smart-contract/writing/go">Writing a smart contract in Golang (Go)</a>
+  </td>
+</tr>
+<tr>
+  <td>Python</td>
+  <td>
+    <a href="/testnet/smart-contract/writing/python">Writing a smart contract in Python</a>
   </td>
 </tr>
 </tbody>
