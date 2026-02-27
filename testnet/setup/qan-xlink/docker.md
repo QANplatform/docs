@@ -125,8 +125,8 @@ docker run -d --name=xlink-wallet-b --restart=always \
 
 The XLINK image uses these environment variables:
 
-1. QAN_CREATE_MNEMO_IF_NOT_EXISTS=1 ? automatically creates a new mnemonic file if one doesn't exist
-2. QAN_MNEMO=/xlink/mnemonic.txt ? path to the mnemonic file inside the container
+1. QAN_CREATE_MNEMO_IF_NOT_EXISTS=1 - automatically creates a new mnemonic file if one doesn't exist
+2. QAN_MNEMO=/xlink/mnemonic.txt - path to the mnemonic file inside the container
 
 The current documented setup:
 
