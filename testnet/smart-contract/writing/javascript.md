@@ -16,7 +16,19 @@ Learn how to write a smart contract in JavaScript (JS).
 Note:
 
 #content
-- Ensure you succesfully [set up your dev environment](/testnet/smart-contract/setup/qvmctl). 
+- Ensure you successfully [set up your dev environment](/testnet/smart-contract/setup/qvmctl). 
+::
+
+## Limitations
+
+::alert{type="warning"}
+#title
+Warning:
+
+#content
+- ECMAScript version support (E5/E5.1 only)
+- Unsupported features: declare, import, ES6+ syntax
+- Runtime environment constraints ([Duktape](https://duktape.org/){:target="_blank"}/[QuickJS](https://bellard.org/quickjs/){:target="_blank"})
 ::
 
 ## Sample contract functionality
