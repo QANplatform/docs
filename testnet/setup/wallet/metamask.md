@@ -11,12 +11,13 @@ Learn how to add the QAN TestNet as a custom network to MetaMask.
 
 ## Prerequisites
 
-::alert{type="note"}
+::alert{type="warning"}
 #title
-Note:
+Warning:
 
 #content
-Ensure you have installed [MetaMask](https://metamask.io){:target="_blank"} on your desktop or mobile device.
+- Ensure you have installed [MetaMask](https://metamask.io){:target="_blank"} on your desktop or mobile device.
+- Ensure you are using MetaMask version 13.16.4 or more recent.
 ::
 
 ## Before you start
