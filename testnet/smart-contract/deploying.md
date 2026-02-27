@@ -16,7 +16,7 @@ Learn how to deploy a smart contract.
 Note:
 
 #content
-- Ensure your succesfully saved you previously written contract. 
+- Ensure your successfully saved you previously written contract. 
 ::
 
 ::alert{type="warning"}
@@ -25,6 +25,15 @@ Warning:
 
 #content
 Currently ARM64 architecture based machines (e.g.: Apple M-Series MacBooks) are NOT supported for compiling smart contracts. This limitation will be fixed soon.
+::
+
+::alert{type="warning"}
+#title
+Warning: 
+
+#content
+- precompilerImpl 3 is the only supported option for testnet
+- precompilerImpl 1 and 2 are deprecated
 ::
 
 ## Run the deploy command of qvmctl using docker
