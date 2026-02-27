@@ -59,11 +59,11 @@ items:
         comingSoon: false
         children: 
 
-      - title: Install the QAN XLINK Desktop App
+      - title: Install the QAN XLINK Desktop App Beta Version
         path: /testnet/setup/qan-xlink/desktop-app
         pagination: true
         disabled: false
-        comingSoon: true
+        comingSoon: false
         children: 
 
       - title: Install the QAN XLINK Browser Extension
