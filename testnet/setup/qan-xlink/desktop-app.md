@@ -17,7 +17,7 @@ Before you download, keep in mind that this is a beta build, expect rough edges 
 
 ## Download Beta Desktop App for Windows
 
-You can download the application [here](https://qanplatform.com/download/xlink/windows){:target="_blank"}.
+You can download the application [here](https://qanplatform.com/xlink){:target="_blank"}.
 
 **System requirements:**
 - Windows 10+ AMD64
@@ -47,7 +47,7 @@ A pop-up window may appear saying that 'Windows protected your PC'.
 
 ## Download Beta Desktop App for Linux
 
-You can download the application [here](https://qanplatform.com/download/xlink/linux){:target="_blank"}
+You can download the application [here](https://qanplatform.com/xlink){:target="_blank"}
 
 **System requirements:**
 - Linux AMD64 (Debian based)
