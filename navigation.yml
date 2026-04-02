@@ -402,10 +402,10 @@ items:
       children: 
     
     - title: Status page
-      path: 
+      path: https://status.qanplatform.com
       pagination: false
       disabled: false
-      comingSoon: true
+      comingSoon: false
       children: 
     
     - title: Faucet
