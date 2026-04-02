@@ -99,4 +99,12 @@ In alignment with the US National Institute of Standards and Technology (NIST)'s
   #description
   Contribute to QAN developer docs on GitHub.
   ::
+
+  ::action{icon="qan/status" color="green" url="https://status.qanplatform.com"}
+  #title
+  QAN Status
+
+  #description
+  Real-time insights into the uptime of QAN systems
+  ::
 ::
