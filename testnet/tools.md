@@ -20,10 +20,10 @@ Explore the QAN TestNet tools.
 <tbody>
 <tr>
     <td>
-        Status page
+        <a href="https://status.qanplatform.com" target="_blank">Status page</a>
     </td>
     <td>
-        You can check the uptime of the QAN TestNet nodes on the <span title="Coming soon">Status page</span> (coming soon).
+        You can check the uptime of the QAN TestNet nodes on the Status page.
     </td>
 </tr>
 <tr>
