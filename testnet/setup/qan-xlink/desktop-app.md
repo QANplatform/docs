@@ -21,7 +21,6 @@ You can download the application [here](https://qanplatform.com/xlink){:target="
 
 **System requirements:**
 - Windows 10+ AMD64
-- Linux AMD64 (Debian based)
 
 A pop-up window may appear saying that 'Windows protected your PC'.
 
@@ -51,7 +50,6 @@ You can download the application [here](https://qanplatform.com/xlink){:target="
 
 **System requirements:**
 - Linux AMD64 (Debian based)
-- Download the Beta Desktop App for Linux
 
 **How to validate your download before running the app:**
 1. Open terminal window
