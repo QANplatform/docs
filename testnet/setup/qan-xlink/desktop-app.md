@@ -35,14 +35,14 @@ A pop-up window may appear saying that 'Windows protected your PC'.
 
     ::customCodeBlock
     ```sh
-    CertUtil -hashfile Downloads\qan_xlink_windows_beta_0.47.exe
+    CertUtil -hashfile Downloads\qan_xlink_windows_beta_0.48.exe
     ```
     ::
 ::
 
 3. Press Enter to run the command. This will present you with an alphanumeric sequence that is called a hash. If this hash is identical to the one listed below then the integrity check passed.
 
-**SHA256 checksum:** 69adac42cf0e627dbf1db993aa5c3d5954211652700e7453db5e9528b77449e8
+**SHA256 checksum:** b8e9072f0a695f79872f0311a4152aef900206a5b513ea4f6bb89a297ba20063
 
 ## Download Beta Desktop App for Linux
 
@@ -58,14 +58,47 @@ You can download the application [here](https://qanplatform.com/xlink){:target="
     
     ::customCodeBlock
     ```sh
-    sha256sum "$HOME/Downloads/qan_xlink_linux_beta_0.47"
+    sha256sum "$HOME/Downloads/qan_xlink_linux_beta_0.48"
     ```
     ::
 ::
 
 3. Press Enter to run the command. This will present you with an alphanumeric sequence that is called a hash. If this hash is identical to the one listed below then the integrity check passed.
 
-**SHA256 checksum:** c9ea1add07df421e19c90be8027d63a1ea86a8c99dc28870fce55ee49d5eb61d
+**SHA256 checksum:** bbbc6970f52cef9ee76219bd55ceda9dbcd644c7b8187deb4d1e07928907bf91
+
+## Download Beta Desktop App for macOS
+
+You can download the application [here](https://qanplatform.com/download/xlink/mac){:target="_blank"}.
+
+**System requirements:**
+- macOS 10.13+
+
+A pop-up window may appear saying that "QAN XLINK Desktop App Beta Version" can't be opened because Apple cannot check it for malicious software.
+
+1. Click the question mark in the top-right corner.
+2. A pop-up window appears stating that Apple cannot check the app for malicious software.
+3. Click "Open Privacy & Security Settings for me".
+4. Scroll down in the Privacy & Security settings and click "Open Anyway" in the Security section.
+5. Use Touch ID or enter your password to allow this.
+6. Click "Open".
+
+**How to validate your download before running the app:**
+
+1. Open terminal window
+2. ::customListItem
+    Type this command into the command window:
+    
+    ::customCodeBlock
+    ```sh
+    sha256sum "~/Downloads/qan_xlink_mac_beta_0.48.zip"
+    ```
+    ::
+::
+
+Press Enter to run the command. This will present you with an alphanumeric sequence that is called a hash. If this hash is identical to the one listed below then the integrity check passed.
+
+**SHA256 checksum:** 729713f57ad5fe122d406efdfef46a80bc02b26168ffd84699f08ff428629f10
 
 ## How to use QAN XLINK Desktop Applicaton
 
