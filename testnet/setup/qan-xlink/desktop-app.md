@@ -91,7 +91,7 @@ A pop-up window may appear saying that "QAN XLINK Desktop App Beta Version" can'
     
     ::customCodeBlock
     ```sh
-    sha256sum "~/Downloads/qan_xlink_mac_beta_0.48.zip"
+    shasum -a 256 "~/Downloads/qan_xlink_mac_beta_0.48.zip"
     ```
     ::
 ::
